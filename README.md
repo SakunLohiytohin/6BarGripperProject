@@ -1,9 +1,9 @@
 # 6-Bar Parallel Gripper
 
 **Sakun Lohityothin** · รหัสนิสิต 6730523721 · กลุ่ม 6BG  
-2103-322 Mechanics of Machinery (Design of Mechanism) · Symbolic Mathematics
+2103322 Mechanics of Machinery  
 
-วิเคราะห์จลนศาสตร์ของกลไกปากคีบขนาน 6 ข้อต่อแบบสมมาตร (Symmetric 6-Bar Parallel Gripper) ด้วย MATLAB Symbolic Math Toolbox พร้อมการสังเคราะห์ขนาดข้อต่อเชิงวิเคราะห์ (Two-Position Analytical Synthesis) เป็นโบนัส
+วิเคราะห์จลนศาสตร์ของกลไกปากคีบขนาน 6 ข้อต่อแบบสมมาตร (Symmetric 6-Bar Parallel Gripper) ด้วย MATLAB Symbolic Math Toolbox พร้อมการสังเคราะห์ขนาดข้อต่อเชิงวิเคราะห์ (Two-Position Analytical Synthesis) 
 
 ---
 
