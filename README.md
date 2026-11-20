@@ -20,7 +20,7 @@
 | [Report_6BG_6730523721.docx](Report_6BG_6730523721.docx) | รายงานโครงงานฉบับสมบูรณ์ (Word) |
 | [Report_6BG_6730523721.pdf](Report_6BG_6730523721.pdf) | รายงานโครงงานสำหรับพิมพ์ (PDF) |
 | [Mechanism.mlx](Mechanism.mlx) | MATLAB Live Script สำหรับรันการวิเคราะห์ทั้งหมด |
-| [RUN_ALL.m](RUN_ALL.m) | โค้ด MATLAB หลัก (Symbolic Kinematics, Synthesis และเรนเดอร์ภาพ/วิดีโอ) |
+| [RUN_ALL.m](RUNALL.m) | โค้ด MATLAB หลัก (Symbolic Kinematics, Synthesis และเรนเดอร์ภาพ/วิดีโอ) |
 | [Kinematic_Diagram.png](Kinematic_Diagram.png) | แผนภาพจลนศาสตร์ (Kinematic Diagram) ครึ่งบนของกลไก |
 | [results/main/Mechanism.avi](results/main/Mechanism.avi) | วิดีโอภาพเคลื่อนไหวพร้อมกราฟ s / v / a (Main) |
 | [results/main/Render.jpg](results/main/Render.jpg) | ภาพนิ่งกลไกและกราฟ s / v / a (Main) |
