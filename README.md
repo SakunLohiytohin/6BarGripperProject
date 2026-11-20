@@ -9,7 +9,7 @@
 
 ## ภาพเคลื่อนไหวกลไกและกราฟจลนศาสตร์
 
-![Main Gripper Render](results/main/Render.jpg)
+![Main Gripper Vid](results/main/Mechanism.avi)
 
 ---
 
@@ -66,9 +66,11 @@ $$V_y = \frac{dP_y}{dt} = L_{4b}\cos(\theta_4 + \beta)\,\omega_4, \qquad A_y = \
 
 จากการจำลองหลัก (Main Simulation) ที่ช่วงชัก $s = 15.0 \to 33.0\text{ mm}$ ($L_3 = 25.0\text{ mm}$, $v_s = 10\text{ mm/s}$) ระยะเปิดปากคีบรวมลดลงอย่างต่อเนื่องจากประมาณ $147\text{ mm}$ เหลือ $80\text{ mm}$ (ที่กึ่งกลางช่วงชัก $s = 23.8\text{ mm}$ ปากคีบเปิด $119.2\text{ mm}$) โดยความเร็วและแรงเฉื่อยเปลี่ยนแปลงอย่างราบเรียบตลอดช่วงการทำงาน
 
+![Main Gripper Render](results/main/Render.jpg)
+
 ---
 
-## Synthesis (Bonus)
+## Synthesis 
 
 ตั้งโจทย์การสังเคราะห์แบบ **Two-Position Analytical Synthesis** ให้ระยะเปิด–ปิดปากคีบรวม ($2P_y$) เปลี่ยนจากเปิดสุด **105.0 mm** เหลือปิดสุด **45.0 mm** ภายในระยะชักตัวเลื่อน $\Delta s = 22.0\text{ mm}$ โดยแก้สมการเงื่อนไขความยาวคงที่ของข้อต่อ $L_3$:
 
@@ -77,7 +79,7 @@ $$(x_{B1} - s_1)^2 + (y_{B1} - y_A)^2 = L_3^2, \qquad (x_{B2} - (s_1 + \Delta s)
 * **ผลลัพธ์จากการสังเคราะห์:** ได้ความยาวข้อต่อขับ $L_3 = 6.39\text{ mm}$ และช่วงชักตัวเลื่อน $s \approx -1.3 \to 20.7\text{ mm}$ (ที่ $s = 9.5\text{ mm}$ ปากคีบเปิด $96.2\text{ mm}$)
 * **ข้อสังเกตเชิงวิศวกรรม:** ช่วงปลายชักเข้าใกล้ $s = 20.7\text{ mm}$ ความเร็วปิด ($2V_y \to -68\text{ mm/s}$) และความเร่ง ($2A_y \to -123\text{ mm/s}^2$) เพิ่มสูงขึ้นเร็ว เนื่องจาก $L_3$ สั้นมากเมื่อเทียบกับ $L_{4a} = 22\text{ mm}$ ทำให้เข้าใกล้ Toggle Position ในการออกแบบจริงจึงควรปรับระยะชักหรือพิกัด $y_A$ เพื่อรักษามุมส่งกำลังให้อยู่ในช่วงปลอดภัย $40^\circ\text{–}140^\circ$
 
-![Synthesis Result](results/bonus/Synthesis_Render.jpg)
+![Synthesis Result](results/bonus/Synthesis.avi)
 
 ---
 
@@ -85,7 +87,7 @@ $$(x_{B1} - s_1)^2 + (y_{B1} - y_A)^2 = L_3^2, \qquad (x_{B2} - (s_1 + \Delta s)
 
 1. ดาวน์โหลดหรือ Clone โครงการทั้งหมดลงในเครื่อง
 2. เปิดโปรแกรม **MATLAB** (ต้องติดตั้ง **Symbolic Math Toolbox**)
-3. เปิดไฟล์ `Mechanism.mlx` แล้วกด **Run All** หรือรันไฟล์ `RUN_ALL.m` โดยตรง
+3. เปิดไฟล์ `Mechanism.mlx` แล้วกด **Run All** หรือรันไฟล์ `RUNALL.m` โดยตรง
 4. ไฟล์ภาพและวิดีโอผลลัพธ์จะถูกบันทึกอัตโนมัติในโฟลเดอร์ `results/main/` และ `results/bonus/`
 
 แบบจำลองใช้สมมุติฐานชิ้นส่วนแข็งเกร็ง (Rigid Bodies) ตัวเลื่อนเคลื่อนที่ด้วยความเร็วคงที่ หน่วยที่ใช้คือ `mm`, `s`, `rad`
