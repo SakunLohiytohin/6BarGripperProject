@@ -9,7 +9,7 @@
 
 ## ภาพเคลื่อนไหวกลไกและกราฟจลนศาสตร์
 
-![Main Gripper Vid](results/main/Mechanism.avi)
+![Main Gripper Vid](results/main/Mechanism.gif)
 
 ---
 
@@ -79,7 +79,7 @@ $$(x_{B1} - s_1)^2 + (y_{B1} - y_A)^2 = L_3^2, \qquad (x_{B2} - (s_1 + \Delta s)
 * **ผลลัพธ์จากการสังเคราะห์:** ได้ความยาวข้อต่อขับ $L_3 = 6.39\text{ mm}$ และช่วงชักตัวเลื่อน $s \approx -1.3 \to 20.7\text{ mm}$ (ที่ $s = 9.5\text{ mm}$ ปากคีบเปิด $96.2\text{ mm}$)
 * **ข้อสังเกตเชิงวิศวกรรม:** ช่วงปลายชักเข้าใกล้ $s = 20.7\text{ mm}$ ความเร็วปิด ($2V_y \to -68\text{ mm/s}$) และความเร่ง ($2A_y \to -123\text{ mm/s}^2$) เพิ่มสูงขึ้นเร็ว เนื่องจาก $L_3$ สั้นมากเมื่อเทียบกับ $L_{4a} = 22\text{ mm}$ ทำให้เข้าใกล้ Toggle Position ในการออกแบบจริงจึงควรปรับระยะชักหรือพิกัด $y_A$ เพื่อรักษามุมส่งกำลังให้อยู่ในช่วงปลอดภัย $40^\circ\text{–}140^\circ$
 
-![Synthesis Result](results/bonus/Synthesis.avi)
+![Synthesis Result](results/bonus/Synthesis.gif)
 
 ---
 
